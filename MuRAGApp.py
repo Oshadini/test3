@@ -398,7 +398,7 @@ if pr ==True:
           return {"images": b64_images[:1], "texts": []}
       return {"images": b64_images, "texts": texts}
 
-
+  st.write("test")
   #response generation
   def img_prompt_func(data_dict):
       """
